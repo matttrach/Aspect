@@ -1,5 +1,5 @@
 package text
 
 func hello() string {
-  return "hello world"
+  return "hello"
 }
