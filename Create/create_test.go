@@ -2,4 +2,7 @@ package create
 
 import "testing"
 
-func CompileTest(t *testing.T) {}
+func CreateEmptyFileTest(t *testing.T) {
+  CompleteFlag := CreateEmptyFile()
+  if !CompleteFlag { t.Error("CreateEmptyFile() failed") }
+}
