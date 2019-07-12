@@ -2,8 +2,8 @@ package create
 
 import "os"
 
-func CreateEmptyFile() bool {
-  f, err := os.Create("../../empty.txt")
+func CreateFile(name, contents string) bool {
+  f, err := os.Create("../../" + name)
   check(err)
   f.Close()
   return true
