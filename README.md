@@ -12,3 +12,9 @@ Projectional editors access that tree and use it to build different ways to view
 ## Goal
 The goal of this project is to use abstract syntax trees as a central authority
 for a code base, disassociating code storage from how it is edited and viewed.
+
+## Installation
+
+## Usage
+
+## Contributing
