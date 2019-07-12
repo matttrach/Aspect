@@ -2,6 +2,8 @@ package create
 
 import "testing"
 
-func CreateEmptyFileTest(t *testing.T) {
-  if !CreateEmptyFile() { t.Error("CreateEmptyFile() failed") }
+func TestCreateEmptyFile(t *testing.T) {
+  want := true
+  got := CreateEmptyFile()
+  if got != want { t.Errorf("CreateEmptyFile failed") }
 }
