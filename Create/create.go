@@ -3,7 +3,7 @@ package create
 import "os"
 
 func CreateEmptyFile() bool {
-  f, err := os.Create("/mnt/c/Users/mattt/Documents/empty.txt")
+  f, err := os.Create("../empty.txt")
   check(err)
   f.Close()
   return true
