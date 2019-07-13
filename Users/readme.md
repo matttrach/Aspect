@@ -17,17 +17,36 @@ We need a clear goal for the product, especially when using the Limbo process.
 - Customers
 
 ## Stories
-- As a developer I want to view and edit code in ways which make it easier to
+- As a Developer I want to view and edit code in ways which make it easier to
 collaborate so that I can be a part of larger projects.
-- As an operator I want to view and edit infrastructure as code in ways which
+
+- As an Operator I want to view and edit infrastructure as code in ways which
 make it easier to collaborate so that I can provide more value.
-- As an executive I want to view product specs in a way that I can easily
+
+- As an Executive I want to view product specs in a way that I can easily
 understand so that I can asses if the project is aligning with the businesses
 needs.
-- As a project manager I need to view project progress live in a way that I can
+
+- As a Project Manager I need to view project progress live in a way that I can
 easily understand so that I can estimate timelines and communicate status.
-- As a product manager I need to view project progress live in a way that I can
+
+- As a Product Manager I need to view project progress live in a way that I can
 easily understand so that I can estimate time lines and plan priorities.
-- As a customer I need to view a product in a way that is easy for me to
+
+- As a Customer I need to view a product in a way that is easy for me to
 understand so that I can assess its use and value to me, and suggest
 improvements.
+
+## Scenarios
+### Developer
+1. I have a storage system with binary files
+1. I open Aspect and I have the option to open a file
+1. I use the open control to select a file
+1. I am asked to select a view for the file
+1. I select the text view
+1. A pane on the screen opens with the textual representation of the binary
+### Operator
+### Executive
+### Project Manager
+### Product Manager
+### Customer
